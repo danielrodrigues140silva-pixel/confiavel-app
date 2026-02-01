@@ -1,0 +1,12 @@
+{
+  "name": "confiavel-app",
+  "version": "1.0.0",
+  "description": "App Confiável",
+  "main": "servidor.js",
+  "scripts": {
+    "start": "node servidor.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
