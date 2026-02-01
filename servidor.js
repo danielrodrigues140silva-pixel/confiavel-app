@@ -20,6 +20,11 @@ app.post('/login', (req, res) => {
   }
 });
 
+// Rota raiz para mostrar o index.html
+app.get('/', (req, res) => {
+  res.sendFile(path.join(__dirname, 'public', 'index.html'));
+});
+
 // Para Render usar porta dinâmica
 const PORT = process.env.PORT || 10000;
 app.listen(PORT, () => console.log(`Servidor rodando na porta ${PORT}`));
