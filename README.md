@@ -1,2 +1,0 @@
-# confiavel-app
-App Confiável
